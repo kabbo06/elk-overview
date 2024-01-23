@@ -72,7 +72,9 @@ Rule **schedules** are defined as an interval between subsequent checks and can 
 
 **Actions** run as background tasks on the Kibana server when rule conditions are met.
 
+<p align="center">
 <img width="554" alt="alert" src="https://github.com/kabbo06/elk-overview/assets/22352861/0649b3ec-edaa-4abc-99de-f22b675c87ef">
+</p>
 
 A rule consists of conditions, actions, and a schedule. When conditions are met, alerts are created that render actions and invoke them. To make action setup and update easier, actions use connectors that centralize the information used to connect with Kibana services and third-party integrations. 
 
