@@ -34,6 +34,12 @@ Elasticsearch analyzes data received from Logstash in real-time using its powerf
 ## Architecture
 The Elasticsearch architecture is designed for scalable and distributed search and analytics. It utilizes a distributed peer-to-peer model, where data is organized into indices and divided into shards across multiple nodes. A master node manages the cluster, while data is replicated for high availability. Elasticsearch incorporates analyzers for text analysis during indexing and searching, offering built-in options like Standard, Simple, Whitespace, and language-specific analyzers. With RESTful APIs and integration with the Elastic Stack, Elasticsearch provides fast and scalable search and analytics capabilities for various applications.
 
+![2 1](https://github.com/kabbo06/elk-overview/assets/22352861/26c2fdf8-5294-49ee-bc81-9d781c813a84)
+
+## Analyzers
+Elasticsearch Analyzers are a fundamental component of Elasticsearch that handle the process of analyzing and tokenizing text data during indexing and searching. Analyzers are responsible for breaking down the input text into individual terms or tokens, applying various linguistic operations and preparing the data for efficient searching. It consists of three things: character filters, token filters and a tokenizer.
+
+
 
 
 
