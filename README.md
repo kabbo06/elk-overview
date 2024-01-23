@@ -43,5 +43,19 @@ Elasticsearch Analyzers are a fundamental component of Elasticsearch that handle
 # Log Data Visualization
 Kibana is a powerful data visualization and exploration tool that works seamlessly with Elasticsearch. It provides a user-friendly web interface for configuring searches, creating visualizations and building interactive dashboards. With Kibana, users can gain valuable insights from data stored in Elasticsearch and effectively communicate those insights through customizable visualizations such as charts, graphs, maps and tables. Kibana allows for easy data exploration, drilling down into specific data points and creating real-time monitoring dashboards.
 
+![3](https://github.com/kabbo06/elk-overview/assets/22352861/3dd2044f-ce6c-4e1b-a5b1-b9f49e8bbc52)
+
+Kibana is highly beneficial for monitoring and data visualization due to the following reasons:
+
+-	Real-Time Monitoring
+-	Interactive Dashboards
+-	Visual Data Exploration
+-	Centralized Data Visualization
+-	Ad Hoc Data Analysis
+-	Reporting and Sharing
+-	Integration with Alerting
+
+
+
 
 
