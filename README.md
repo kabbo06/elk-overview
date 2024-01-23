@@ -9,4 +9,5 @@ Establishing an effective and distributed log management system requires four ma
 In the ELK Stack, data collection is primarily handled by the Logstash component. Logstash is an open-source data processing pipeline that collects, parses, and transforms data from various sources before sending it to Elasticsearch for indexing and storage.
 Logstash provides a wide range of input plugins that enable data collection from different sources.
 Some commonly used input plugins include File, Beats, Syslog, TCP/UDP, HTTP, JDBC, Kafka, Amazon S3, and Redis among others.
+![1 4](https://github.com/kabbo06/elk-overview/assets/22352861/49b0dffd-48fa-4018-8ea0-ebf2bc8e1e93)
 
