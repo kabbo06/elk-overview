@@ -31,6 +31,8 @@ Elasticsearch analyzes data received from Logstash in real-time using its powerf
 -	Real-time Monitoring and Alerting
 -	Scalability and Performance
 -	Integration with Kibana
+## Architecture
+The Elasticsearch architecture is designed for scalable and distributed search and analytics. It utilizes a distributed peer-to-peer model, where data is organized into indices and divided into shards across multiple nodes. A master node manages the cluster, while data is replicated for high availability. Elasticsearch incorporates analyzers for text analysis during indexing and searching, offering built-in options like Standard, Simple, Whitespace, and language-specific analyzers. With RESTful APIs and integration with the Elastic Stack, Elasticsearch provides fast and scalable search and analytics capabilities for various applications.
 
 
 
