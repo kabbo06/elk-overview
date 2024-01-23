@@ -40,6 +40,8 @@ The Elasticsearch architecture is designed for scalable and distributed search a
 Elasticsearch Analyzers are a fundamental component of Elasticsearch that handle the process of analyzing and tokenizing text data during indexing and searching. Analyzers are responsible for breaking down the input text into individual terms or tokens, applying various linguistic operations and preparing the data for efficient searching. It consists of three things: character filters, token filters and a tokenizer.
 
 
+# Log Data Visualization
+Kibana is a powerful data visualization and exploration tool that works seamlessly with Elasticsearch. It provides a user-friendly web interface for configuring searches, creating visualizations and building interactive dashboards. With Kibana, users can gain valuable insights from data stored in Elasticsearch and effectively communicate those insights through customizable visualizations such as charts, graphs, maps and tables. Kibana allows for easy data exploration, drilling down into specific data points and creating real-time monitoring dashboards.
 
 
 
