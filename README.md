@@ -78,6 +78,10 @@ Rule **schedules** are defined as an interval between subsequent checks and can 
 
 A rule consists of conditions, actions and a schedule. When conditions are met, alerts are created that render actions and invoke them. To make action setup and update easier, actions use connectors that centralize the information used to connect with Kibana services and third-party integrations. 
 
+# References
+
+[Elastic Documentation](https://www.elastic.co/guide/index.html)
+
 
 
 
