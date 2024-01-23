@@ -61,15 +61,20 @@ Kibana's monitoring and data visualization capabilities provide a user-friendly 
 
 Notification & Alert
 The ELK Stack provides robust notification and alert capabilities, ensuring timely awareness of critical events. Through customizable alerting rules, organizations can set conditions based on specific log patterns or severity levels to trigger notifications. These alerts aid in determining known resolutions for common issues, facilitating efficient troubleshooting and incident response. Additionally, the ELK Stack enables real-time analysis of log data, allowing for the identification of emerging trends and anomalies. With real-time and trend analysis, organizations can proactively address potential issues and make data-driven decisions. Combined with its powerful visualization tools, the ELK Stack's notification and alert capabilities enhance operational efficiency and enable proactive monitoring of systems and applications.
-Alerting enables the definition of rules that detect complex conditions within different Kibana apps and trigger actions when those conditions are met.
 
-A rule specifies a background task that runs on the Kibana server to check for specific conditions.
+**Alerting** enables the definition of rules that detect complex conditions within different Kibana apps and trigger actions when those conditions are met.
 
-Under the hood, Kibana rules detect conditions by running a JavaScript function on the Kibana server which gives it the flexibility to support a wide range of conditions, anything from the results of a simple Elasticsearch query to heavy computations involving data from multiple sources or external systems.
+A **rule** specifies a background task that runs on the Kibana server to check for specific conditions.
 
-Rule schedules are defined as an interval between subsequent checks and can range from a few seconds to months.
+Under the hood, Kibana rules detect **conditions** by running a JavaScript function on the Kibana server which gives it the flexibility to support a wide range of conditions, anything from the results of a simple Elasticsearch query to heavy computations involving data from multiple sources or external systems.
 
-Actions run as background tasks on the Kibana server when rule conditions are met.
+Rule **schedules** are defined as an interval between subsequent checks and can range from a few seconds to months.
+
+**Actions** run as background tasks on the Kibana server when rule conditions are met.
+
+
+
+A rule consists of conditions, actions, and a schedule. When conditions are met, alerts are created that render actions and invoke them. To make action setup and update easier, actions use connectors that centralize the information used to connect with Kibana services and third-party integrations. 
 
 
 
