@@ -55,6 +55,21 @@ Kibana is highly beneficial for monitoring and data visualization due to the fol
 -	Reporting and Sharing
 -	Integration with Alerting
 
+![3 2](https://github.com/kabbo06/elk-overview/assets/22352861/4179d0b1-4d78-409a-9ebe-b62f1df977c5)
+
+Kibana's monitoring and data visualization capabilities provide a user-friendly and comprehensive platform for analyzing data, gaining insights, and monitoring the performance and health of systems in real-time. It empowers organizations to make data-driven decisions, identify trends and take proactive measures to optimize operations and enhance overall efficiency.
+
+Notification & Alert
+The ELK Stack provides robust notification and alert capabilities, ensuring timely awareness of critical events. Through customizable alerting rules, organizations can set conditions based on specific log patterns or severity levels to trigger notifications. These alerts aid in determining known resolutions for common issues, facilitating efficient troubleshooting and incident response. Additionally, the ELK Stack enables real-time analysis of log data, allowing for the identification of emerging trends and anomalies. With real-time and trend analysis, organizations can proactively address potential issues and make data-driven decisions. Combined with its powerful visualization tools, the ELK Stack's notification and alert capabilities enhance operational efficiency and enable proactive monitoring of systems and applications.
+Alerting enables the definition of rules that detect complex conditions within different Kibana apps and trigger actions when those conditions are met.
+
+A rule specifies a background task that runs on the Kibana server to check for specific conditions.
+
+Under the hood, Kibana rules detect conditions by running a JavaScript function on the Kibana server which gives it the flexibility to support a wide range of conditions, anything from the results of a simple Elasticsearch query to heavy computations involving data from multiple sources or external systems.
+
+Rule schedules are defined as an interval between subsequent checks and can range from a few seconds to months.
+
+Actions run as background tasks on the Kibana server when rule conditions are met.
 
 
 
